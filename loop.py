@@ -14,7 +14,7 @@ def main():
 
     # Output
     for loop_counter in range(1000, 2000 + 1):
-        if loop_counter % 5 == 0:
+        if loop_counter % 5 == 4:
             print("{0}  ".format(loop_counter))
         else:
             print("{0}  ".format(loop_counter), end="")
